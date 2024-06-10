@@ -238,7 +238,7 @@ for (jj in 1:nCpG) {
   ## Save the SNP_per_PRS file
   if(jj == nCpG) {
     snp_per_prs$nSNP <- as.numeric(snp_per_prs$nSNP)
-    fwrite(snp_per_prs, file = paste0(prsDir,"n_snps_p_0.05_by_clumpLDr2_batch_1.dta"), 
+    fwrite(snp_per_prs, file = paste0(prsDir,"n_snps_p_0.05_by_clumpLDr2.dta"), 
            sep = "\t", quote = F, col.names = T, row.names = F)
   }
  
