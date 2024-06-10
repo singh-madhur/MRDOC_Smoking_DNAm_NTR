@@ -7,10 +7,10 @@ rm(list = ls()); gc()
 library(tidyverse)
 
 # directories
-baseDir      <- "/data/msingh/MRDoC_Smk_DNAm/"
+baseDir      <- "/base_dir/"
 phenoDir     <- paste0(baseDir,"data/phenos/")
 outDir       <- paste0(baseDir,"data/DNAm_resid/")
-methDir      <- "/data/PUBLIC/Methylation/Blood_450karray_freeze2021/"
+methDir      <- "/base_dir/Methylation/Blood_450karray_freeze2021/"
 outFile      <- paste0(outDir,"residualized_beta_blood450k_BATCH1.RData")
 
 
